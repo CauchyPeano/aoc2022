@@ -1,6 +1,4 @@
-import kotlin.math.max
-
-fun main(array: Array<String>) {
+fun main() {
 
     val input = getResourceAsText("input1.txt")
     val acc = mutableListOf<Int>(0)
