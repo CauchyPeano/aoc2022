@@ -8,7 +8,7 @@ enum class Hand { Rock, Paper, Scissors }
 
 data class Rule(val player1: Hand, val player2: Hand, val outcome: Game)
 fun main() {
-    val text = getResourceAsText("input2.txt")
+    val text = getResourceAsText("input02.txt")
 
     val opponentMap = mapOf("A" to Rock, "B" to Paper, "C" to Scissors)
     val playerMap = mapOf("X" to Rock, "Y" to Paper, "Z" to Scissors)
