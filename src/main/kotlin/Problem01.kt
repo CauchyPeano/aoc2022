@@ -1,6 +1,6 @@
 fun main() {
 
-    val input = getResourceAsText("input1.txt")
+    val input = getResourceAsText("input.txt")
     val acc = mutableListOf<Int>(0)
 
 
@@ -23,5 +23,3 @@ fun main() {
 
 }
 
-fun getResourceAsText(path: String): String =
-    object {}.javaClass.getResource(path)!!.readText()
