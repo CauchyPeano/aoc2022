@@ -6,7 +6,7 @@ val score = lower + upper
 
 fun main() {
 
-    val text = getResourceAsText("input03.txt")
+    val text = readContent("input03.txt")
 
     val sum = text.lines()
         .map { line -> line.substring(0, line.length / 2) to line.substring(line.length / 2, line.length) }

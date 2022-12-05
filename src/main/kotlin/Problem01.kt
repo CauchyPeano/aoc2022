@@ -1,6 +1,6 @@
 fun main() {
 
-    val input = getResourceAsText("input01.txt")
+    val input = readContent("input01.txt")
     val acc = mutableListOf<Int>(0)
 
 

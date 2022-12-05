@@ -1,5 +1,5 @@
 fun main() {
-    val text = getResourceAsText("input04.txt")
+    val text = readContent("input04.txt")
 
     val parsed = text.lines().map(::convertLineToRanges)
         .map { (r1, r2) -> IntRange(r1.first, r1.second) to IntRange(r2.first, r2.second) }
